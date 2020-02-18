@@ -17,6 +17,7 @@
       var qrcode = new QRCode("qrcode");
 
       function makeCode () {
+        /* 設定QR的輸入來源為 elText 變數，該變數已綁定資料來源為物件ID為 text 的 input 輸入框 */
         var elText = document.getElementById("text");
 
         if (!elText.value) {
