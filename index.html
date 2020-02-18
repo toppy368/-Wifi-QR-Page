@@ -5,6 +5,10 @@
     <title>Wifi QR Page</title>
   </head>
   <body>
-    
+    <!--引入jscode.js-->
+    <div id="qrcode"></div>
+    <script type="text/javascript">
+        new QRCode(document.getElementById("qrcode"), "http://jindo.dev.naver.com/collie");
+    </script>
   </body>
 </html>
